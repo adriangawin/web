@@ -9,7 +9,7 @@ $logged = 0;
 
 
 if ( $username ) {
-	$conn = mysql_connect('localhost', 'adrian', 'sandra34');
+	$conn = mysql_connect('localhost', 'adrian', 'password');
 	if ( ! $conn ) $error = 'cannot conntect to database';
 	else {
 		mysql_select_db('systemdb');
